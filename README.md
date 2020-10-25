@@ -1,6 +1,6 @@
-# stack_architecture
+# Changali
 
-A new Flutter project.
+Flutter app for restaurant reservation.
 
 ## Getting Started
 
