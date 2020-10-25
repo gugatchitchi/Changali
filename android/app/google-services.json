@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "600770055481",
+    "firebase_url": "https://changali-ae40a.firebaseio.com",
+    "project_id": "changali-ae40a",
+    "storage_bucket": "changali-ae40a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:600770055481:android:b0d49e6a6c08804d436ce8",
+        "android_client_info": {
+          "package_name": "com.guga.changali"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "600770055481-2so2lcf3ks944cp5arkjmvlgsrjctd4d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAI9D42jBOAgWJg_vBhhQE3qSbKQE4KkPU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "600770055481-2so2lcf3ks944cp5arkjmvlgsrjctd4d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

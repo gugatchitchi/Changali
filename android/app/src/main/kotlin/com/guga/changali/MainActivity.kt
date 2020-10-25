@@ -1,4 +1,4 @@
-package com.example.stack_architecture
+package com.guga.changali
 
 import io.flutter.embedding.android.FlutterActivity
 
