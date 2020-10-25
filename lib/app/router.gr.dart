@@ -9,14 +9,14 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 
+import '../ui/views/authentication/authentication_view.dart';
 import '../ui/views/home/home_view.dart';
-import '../ui/views/startup/startup_view.dart';
 
 class Routes {
-  static const String startupViewRoute = '/';
+  static const String authenticationViewRoute = '/';
   static const String homeViewRoute = '/home-view';
   static const all = <String>{
-    startupViewRoute,
+    authenticationViewRoute,
     homeViewRoute,
   };
 }
@@ -25,15 +25,15 @@ class Router extends RouterBase {
   @override
   List<RouteDef> get routes => _routes;
   final _routes = <RouteDef>[
-    RouteDef(Routes.startupViewRoute, page: StartupView),
+    RouteDef(Routes.authenticationViewRoute, page: AuthenticationView),
     RouteDef(Routes.homeViewRoute, page: HomeView),
   ];
   @override
   Map<Type, AutoRouteFactory> get pagesMap => _pagesMap;
   final _pagesMap = <Type, AutoRouteFactory>{
-    StartupView: (data) {
+    AuthenticationView: (data) {
       return MaterialPageRoute<dynamic>(
-        builder: (context) => StartupView(),
+        builder: (context) => AuthenticationView(),
         settings: data,
       );
     },
